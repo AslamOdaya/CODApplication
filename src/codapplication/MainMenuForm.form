@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+        <Property name="focusTraversalPolicyProvider" type="boolean" value="true"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[1050, 650]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="288" max="-2" attributes="0"/>
+                  <Component id="LoginButton" min="-2" pref="91" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="menuTab" min="-2" pref="1002" max="-2" attributes="0"/>
+                  <EmptySpace pref="36" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabel1" min="-2" pref="32" max="-2" attributes="0"/>
+                      <Component id="LoginButton" min="-2" pref="40" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="menuTab" min="-2" pref="541" max="-2" attributes="0"/>
+                  <EmptySpace pref="50" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="36" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Main Menu"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="LoginButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Login"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="LoginButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JTabbedPane" name="menuTab">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Default Cursor"/>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Breakfast Menu">
+                    <Property name="tabTitle" type="java.lang.String" value="Breakfast Menu"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="itemName2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="itemName1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="itemName4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="itemName3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="itemName5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="itemName6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="itemName7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="itemPrice4" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                                  <Component id="itemPrice7" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="itemPrice2" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="itemPrice1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="itemPrice3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="itemPrice5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace pref="222" max="32767" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="itemCheck5" min="-2" pref="126" max="-2" attributes="0"/>
+                                                      <Component id="itemCheck1" min="-2" pref="126" max="-2" attributes="0"/>
+                                                      <Component id="itemCheck2" min="-2" pref="126" max="-2" attributes="0"/>
+                                                      <Component id="itemCheck3" min="-2" pref="126" max="-2" attributes="0"/>
+                                                      <Component id="itemCheck4" alignment="0" min="-2" pref="126" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="itemPrice6" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="itemCheck6" min="-2" pref="126" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="101" pref="101" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jSeparator1" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jSeparator2" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jSeparator3" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jSeparator4" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jSeparator5" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jSeparator13" alignment="0" max="32767" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="itemCheck7" min="-2" pref="126" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="101" pref="101" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="addBreakfast" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="itemName1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="itemPrice1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="itemCheck1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jSeparator1" min="-2" pref="16" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="itemName2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="itemPrice2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="itemCheck2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="itemName3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="itemPrice3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="itemCheck3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jSeparator3" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="itemName4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="itemPrice4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="itemCheck4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          <Component id="jSeparator4" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="itemName5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="itemPrice5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="itemCheck5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                          <Component id="jSeparator5" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="itemName6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="itemPrice6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="itemCheck6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jSeparator13" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="itemPrice7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="itemName7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="itemCheck7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="addBreakfast" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="itemName1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Lemony radish &amp; fennel salad"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="itemPrice1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;6.59 "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="itemCheck1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemCheck1ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="itemName2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="The ultimate makeover: Full English breakfast"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="itemPrice2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;13.00 "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="itemCheck2">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemCheck2ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="itemName3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cinnamon buckwheat pancakes with cherries"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="itemPrice3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;7.20"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="itemCheck3">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemCheck3ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="itemName4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Rye bread with almond butter &amp; pink grapefruit segments"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="itemPrice4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;4.89 "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="itemCheck4">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemCheck4ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="itemName5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Smoky rashers &amp; tomatoes on toast"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="itemPrice5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;4.89 "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="itemCheck5">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemCheck5ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="itemName6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cinnamon pancakes with compote &amp; maple syrup"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="itemPrice6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;7.20 "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="itemCheck6">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemCheck6ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator1">
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator2">
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator3">
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator4">
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator5">
+                </Component>
+                <Component class="javax.swing.JLabel" name="itemName7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cheesy scrambled egg croissants"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="itemPrice7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;3.75"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="itemCheck7">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemCheck7ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator13">
+                </Component>
+                <Component class="javax.swing.JButton" name="addBreakfast">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Add Selected "/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel4">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Lunch Menu">
+                    <Property name="tabTitle" type="java.lang.String" value="Lunch Menu"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="starterLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="dessertLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jSeparator12" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jSeparator10" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jSeparator9" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jSeparator7" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jSeparator6" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jSeparator8" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="jSeparator11" alignment="0" max="32767" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="starterItem1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="starterItem2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="starterItem3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="mainLabel" min="-2" max="-2" attributes="0"/>
+                                              <Component id="mainItem1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="mainItem2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="mainItem3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="91" pref="194" max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="mainPrice4" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="mainCheck3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="mainPrice2" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace pref="417" max="32767" attributes="0"/>
+                                                  <Component id="mainCheck2" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="mainPrice1" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="mainCheck1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="starterPrice3" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="starterCheck3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="starterPrice2" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="starterCheck2" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="starterPrice1" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="starterCheck1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="dessertItem1" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="340" max="-2" attributes="0"/>
+                                                  <Component id="dessertPrice1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="dessertItem2" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="286" max="-2" attributes="0"/>
+                                                  <Component id="dessertPrice2" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="91" pref="423" max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="dessertCheck1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="dessertCheck2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="addBreakfast1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="31" pref="31" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="starterLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="starterItem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="starterPrice1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="starterCheck1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                          <Component id="jSeparator6" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="starterPrice2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="starterCheck2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="starterItem2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                          <Component id="jSeparator7" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="starterPrice3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="starterCheck3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="starterItem3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jSeparator8" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                          <Component id="mainLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="mainItem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="mainPrice1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="mainCheck1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jSeparator9" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="mainPrice2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="mainCheck2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="mainItem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                          <Component id="jSeparator11" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="mainItem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="mainCheck3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="mainPrice4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jSeparator10" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="dessertLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="6" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="dessertCheck2" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace pref="16" max="-2" attributes="0"/>
+                                              <Component id="dessertItem1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="dessertCheck1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="dessertPrice1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jSeparator12" min="-2" pref="10" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="dessertItem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="dessertPrice2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          <Component id="addBreakfast1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="starterLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="18" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Starter"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="starterItem1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Mini prawn &amp; sweetcorn cakes"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="starterPrice1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;4.80"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="starterCheck1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="starterItem2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Pea &amp; savory soup"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="starterPrice2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;3.50"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="starterCheck2">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="starterItem3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Beetroot, goat&apos;s cheese &amp; anchovy salad "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="starterPrice3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;4.59 "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="starterCheck3">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator6">
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator7">
+                </Component>
+                <Component class="javax.swing.JLabel" name="mainLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="18" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Main"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="mainItem1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="One-pan duck with Savoy cabbage"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="mainPrice1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;9.89"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="mainCheck1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator8">
+                </Component>
+                <Component class="javax.swing.JLabel" name="mainItem2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Pan-fried salmon "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="mainPrice2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;10.59"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="mainCheck2">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="mainItem3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Slow-roast pork belly with celeriac &amp; pear mash "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="dessertPrice1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="4.30"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="mainCheck3">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator9">
+                </Component>
+                <Component class="javax.swing.JLabel" name="dessertLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="18" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Dessert"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="dessertItem1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Peach Melba trifle"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="mainPrice4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;9.75"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator11">
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="dessertCheck1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="dessertItem2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Blueberry &amp; lime cheesecake"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="dessertPrice2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;4.97"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="dessertCheck2">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator10">
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator12">
+                </Component>
+                <Component class="javax.swing.JButton" name="addBreakfast1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Add Selected "/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Dinner Menu">
+                    <Property name="tabTitle" type="java.lang.String" value="Dinner Menu"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="addDinner" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jSeparator14" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lunchMainLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lunchMain7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="216" max="-2" attributes="0"/>
+                                          <Component id="lunchPrice8" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lunchMain1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="lunchPrice1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="231" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lunchMain2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="284" max="-2" attributes="0"/>
+                                          <Component id="lunchPrice2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lunchMain3" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="319" max="-2" attributes="0"/>
+                                          <Component id="lunchPrice3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lunchMain4" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="320" max="-2" attributes="0"/>
+                                          <Component id="lunchPrice4" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lunchMain5" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="276" max="-2" attributes="0"/>
+                                          <Component id="lunchPrice5" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lunchMain6" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace pref="313" max="32767" attributes="0"/>
+                                          <Component id="lunchPrice7" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="226" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace pref="122" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lunchItemSelect1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lunchItemSelect2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lunchItemSelect3" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lunchItemSelect4" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lunchItemSelect5" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lunchItemSelect6" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lunchItemSelect7" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="jSeparator15" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jSeparator16" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jSeparator17" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jSeparator18" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jSeparator19" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lunchMainLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lunchMain1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lunchPrice1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="lunchItemSelect1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                          <Component id="jSeparator14" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lunchMain2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lunchPrice2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lunchItemSelect2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                          <Component id="jSeparator15" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lunchMain3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lunchPrice3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lunchItemSelect3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                          <Component id="jSeparator16" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lunchMain4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lunchPrice4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lunchItemSelect4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jSeparator17" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lunchMain5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lunchPrice5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lunchItemSelect5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                          <Component id="jSeparator18" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lunchMain6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lunchPrice7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lunchItemSelect6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                          <Component id="jSeparator19" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lunchMain7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lunchPrice8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lunchItemSelect7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="51" max="32767" attributes="0"/>
+                          <Component id="addDinner" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="lunchMainLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="18" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Main"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lunchMain1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Grilled Polenta"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lunchPrice1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;4.80"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="lunchItemSelect1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lunchMain2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Macaroni Cheese Fritter"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lunchPrice2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;12.50"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="lunchItemSelect2">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lunchMain3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Curried Mackerel"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lunchPrice3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;19.50"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="lunchItemSelect3">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lunchMain4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Lobster Lasagne"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lunchPrice4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;25.00"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="lunchItemSelect4">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lunchMain5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Chermoula Spiced Poussin"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lunchPrice5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;18.00"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="lunchItemSelect5">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lunchMain6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Roasted Pork Loin"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lunchPrice7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;15.50"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="lunchItemSelect6">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lunchMain7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Longhorn Beef &amp; Bone Marrow Burger "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lunchPrice8">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#xa3;20.00"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="lunchItemSelect7">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Select Item"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="addDinner">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Add Selected "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator14">
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator15">
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator16">
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator17">
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator18">
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator19">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel6">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Daily Specials">
+                    <Property name="tabTitle" type="java.lang.String" value="Daily Specials"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="993" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="503" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel5">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Drinks">
+                    <Property name="tabTitle" type="java.lang.String" value="Drinks"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="993" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="503" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
